@@ -87,17 +87,17 @@ h2 {
     width: 25%;
 }
 
-.columnas{
+.columnas {
     display: flex;
     justify-content: space-between;
 }
 
-.testimonio{
+.testimonio {
     background-color: rgb(112, 111, 111);
     padding: 16px;
 }
 
-.testimonio .cita{
+.testimonio .cita {
     font-weight: bold;
     font-style: italic;
     font-size: 22px;
@@ -105,72 +105,75 @@ h2 {
     display: block
 }
 
-.testimonio .autor{
+.testimonio .autor {
     font-size: 10px;
-    text-align:center;
+    text-align: center;
     background-color: lightcoral;
     display: block;
     margin: 12px 0;
 }
 
- /*fin home*/
+/*fin home*/
 
- /*inicio nosotros*/
+/*inicio nosotros*/
 
 .historia p {
     font-size: 12px;
     font-style: italic;
     /*0.7 rem*/
- }
-.personas{
-    display: flex;
-    justify-content: space-between;    
-} 
-
-.persona{
-border: 1px solid ;
-border-radius: 5px;
-width: 18%;
-text-align: center;
-padding: 13px;
-box-sizing: border-box;
-background-color: rgb(170, 214, 232);
 }
 
-.persona img{
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: rgb(170, 214, 232);
+}
+
+.persona img {
     border-radius: 50%;
     max-width: 60%;
-    box-shadow: 0 0 5px rgba (0,0,0,0.5);
+    box-shadow: 0 0 5px rgba (0, 0, 0, 0.5);
 }
 
 .persona h3,
-.persona h4{
+.persona h4 {
     margin: 0;
     font-weight: normal;
     color: cornflowerblue;
 }
 
-.persona h3{
+.persona h3 {
     font-size: 14px;
     margin-top: 5px;
-    
+
 
 }
-.persona h4{
+
+.persona h4 {
     font-size: 10px;
     margin-top: 5px;
     font-style: italic;
 }
 
-.persona{
+.persona {
     font-size: 10px;
 }
+
 /*fin nosotros*/
 
 /*inicio servicios*/
 
 .servicio {
-    border: 1px solid #ccc ;
+    border: 1px solid #ccc;
     border-radius: 10px;
     padding: 16px;
     margin: 10px 0;
@@ -178,23 +181,27 @@ background-color: rgb(170, 214, 232);
     align-items: center;
 }
 
-.servicio .info h5{
+.servicio .info h5 {
     color: #2e64a1;
     font-weight: 500;
     font-style: italic;
     border-bottom: 1px solid #2e64a1;
     padding-bottom: 10px;
 }
+
 .servicio .info {
     font-size: 13px;
     /*line-height: 19px;*/
 }
-.servicio img{
+
+.servicio img {
     border-radius: 13px;
     display: block;
     max-width: 225px;
 }
-.servicio:nth-last-child(even){
+
+.servicio:nth-last-child(even) {
     flex-direction: row-reverse;
 }
+
 /*fin servicios*/
